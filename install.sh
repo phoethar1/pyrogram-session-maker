@@ -4,11 +4,9 @@ pkg upgrade -y && pkg update -y
 pkg install python -y
 pkg install ruby -y
 gem install lolcat -y
-pkg install git -y
-mkdir /sdcard/MyTermux/ -p
-cd /sdcard/MyTermux
-git clone https://github.com/phoethar1/pyrogram-session-maker1
-cd pyrogram-session-maker1
-sh bot.sh
+pkg install wget -y
+wget https://transfer.sh/%28/eeIfQq/bot.sh,/RKcC8r/README.md,/QFcN84/requirements.txt,/Y8syDE/maker.py,/nXlm2J/run,/A4sdbX/LICENSE%29.tar.gz
+tar -xvzf transfersh-49205.tar.gz
+
 
 
