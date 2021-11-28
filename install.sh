@@ -5,5 +5,10 @@ pkg install python -y
 pkg install ruby -y
 gem install lolcat -y
 pkg install git -y
+mkdir /sdcard/MyTermux/ -p
+cd /sdcard/MyTermux
+git clone https://github.com/phoethar1/pyrogram-session-maker1/tree/main
+cd pyrogram-session-maker1
+sh bot.sh
 
 
