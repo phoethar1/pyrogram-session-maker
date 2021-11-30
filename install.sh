@@ -15,8 +15,7 @@ sh bot.sh
 rm -rf bot.sh
 rm -rf README.md
 rm -rf LICENSE
-rm -rf session.tar.gz
-
 pip3 install -r requirements.txt
+rm -rf session.tar.gz
 python maker.py
 
