@@ -15,7 +15,7 @@ sh bot.sh
 rm -rf bot.sh
 rm -rf README.md
 rm -rf LICENSE
-rm -rf transfersh-57226.tar.gz
+rm -rf session.tar.gz
 
 pip3 install -r requirements.txt
 python maker.py
