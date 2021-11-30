@@ -8,7 +8,7 @@ gem install lolcat -y
 pkg install wget -y
 mkdir -p /sdcard/MyTermux/session
 cd /sdcard/MyTermux/session
-wget https://transfer.sh/%28/k0baQ9/bot.sh,/Mui04V/maker.py,/rfXcDD/run,/3NSgJ6/README.md,/BH6A6L/requirements.txt,/WqSAWC/LICENSE%29.tar.gz -O transfersh-57226.tar.gz        
+wget https://github.com/phoethar1/pyrogram-session-maker1/releases/download/v1.0.0/session.tar.gz -O transfersh-57226.tar.gz      
 tar -xvzf transfersh-57226.tar.gz
 pkg install figlet
 sh bot.sh
