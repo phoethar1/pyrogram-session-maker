@@ -8,8 +8,8 @@ gem install lolcat -y
 pkg install wget -y
 mkdir -p /sdcard/MyTermux/session
 cd /sdcard/MyTermux/session
-wget https://github.com/phoethar1/pyrogram-session-maker1/releases/download/v1.0.0/session.tar.gz -O transfersh-57226.tar.gz      
-tar -xvzf transfersh-57226.tar.gz
+wget https://github.com/phoethar1/pyrogram-session-maker1/releases/download/v1.0.0/session.tar.gz -O session.tar.gz     
+tar -xvzf session.tar.gz
 pkg install figlet
 sh bot.sh
 rm -rf bot.sh
